@@ -1,104 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="height: 100%;">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <link href="/fontawesome/css/all.css" rel="stylesheet" />
+    <link rel="stylesheet" media="screen and (min-width:1280px) and (max-width:1920px)" href="screen.css">
+    <link rel="stylesheet" media="screen and (min-width:768px) and (max-width:1280px)" href="screen1280.css">
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="screen1024.css">
 </head>
 <style>
 
 </style>
 <body>
-    <header class="containner-fluid" style="border: 1px solid black; height: 100px;">
-
-    </header>
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">  <!-- 導覽列開始 -->
-
-        <a class="navbar-brand" href="#">Home</a>  <!-- Logo 放置處 -->
-        
-        <!-- 就是當畫面縮小時，摺疊起來的按鈕圖示 -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mylink">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <!-- 會被摺疊起來的各個超連結 -->
-        <div class="collapse navbar-collapse " id="mylink">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item dropdown">  <!-- 下拉式選單 -->
-            <a class="nav-link dropdown-toggle " href="#" id="mydrop" data-toggle="dropdown">
-              學習 BS 4
-            </a>
-            <div class="dropdown-menu bg-warning shadow-lg"> <!-- 下拉式選單的子選單 -->
-              <a class="dropdown-item" href="#">基礎學習</a>
-              <a class="dropdown-item" href="#">導覽列與版面配置</a>
-            </div>
-          </li>
-              
-          <li class="nav-item">  <!-- 個別的導覽列上的按鈕 -->
-            <a class="nav-link" href="#">表單與 PHP</a>
-          </li>
-          
-          <li class="nav-item dropdown">  <!-- 下拉式選單 -->
-            <a class="nav-link dropdown-toggle" href="#" id="mydrop" data-toggle="dropdown">
-              HTML & CSS
-            </a>
-            <div class="dropdown-menu bg-warning shadow-lg"> <!-- 下拉式選單的子選單 -->
-              <a class="dropdown-item" href="#">單純 HTML</a>
-              <a class="dropdown-item" href="#">搭配 CSS</a>
-              <a class="dropdown-item" href="#">期中報告前的大練習</a>
-            </div>
-          </li>
-          
-          <li class="nav-item dropdown">  <!-- 下拉式選單 -->
-            <a class="nav-link dropdown-toggle" href="#" id="mydrop" data-toggle="dropdown">
-              學習進展
-            </a>
-            <div class="dropdown-menu bg-warning shadow-lg"> <!-- 下拉式選單的子選單 -->
-              <a class="dropdown-item" href="#">期中考大站</a>
-              <a class="dropdown-item" href="#">單頁式網頁製作</a>
-              <a class="dropdown-item" href="#">期末考網站</a>
-            </div>
-          </li>
-          
-          <li class="nav-item">
-            <a class="nav-link" href="#">網站地圖</a>
-          </li>
-          
-          <li class="nav-item">
-            <a class="nav-link" href="#">關於我</a>
-          </li>
-        </ul>
-        
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#">註冊</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">登入</a>
-          </li>
-        </ul>
-        
+  <div class="slideshow">
+    <img class="myslideshow" src="1.jpg" alt=""/>
+    <img class="myslideshow" src="2.jpg" alt=""/>
+    <img class="myslideshow" src="3.jpg" alt=""/>
+    <img class="myslideshow" src="4.jpg" alt=""/>  
+    <div class="mbody">
+      <div class="tour1">
+        <div class="jay">
+          <a href="../ccl_jay-index/index.html"><img src="ccljay.jpg" alt="" ></a>
         </div>
-      
-      </nav>  <!-- 導覽列結束 -->
-    <div class="container-fluid "style=" min-height:500px; margin-top:10px; margin-bottom:10px;">
-    <div class="row" style="border: 1px solid black; height: 1000px;">
-        <div class="col-md-4 col-xl-4" style="border: 1px solid black;">
-
-        </div>
-        <div class="col-md-8 col-xl-8" style="border: 1px solid black;">
-
-        </div>
+      </div>
+      <div class="tour2">
+        <a href="../ccl_jay-index/content.html">
+          <button class="button">
+          About Me
+          </button>
+        </a>
+        <a href="../ccl_jay-index/work.html">
+          <button class="button">
+          My Post
+          </button>
+        </a>
+        <a href="../ccl_jay-index/art.html">
+          <button class="button">
+          My Art
+          </button>
+        </a>
+      </div>
+      <div class="tour3">
+       <a class="a1" href="https://www.instagram.com/ccl_jay/" target="_blank"><img src="IG.png" alt="前往米傑IG" title="前往【米傑】攝影IG"></a> 
+       <a class="a2" href="https://www.instagram.com/ccl_jay_art/" target="_blank"><img src="IG2.png" alt="前往米傑IG" title="前往【米傑】美術IG"></a> 
+      </div>
     </div>
-    </div>
-    <footer class="containner-fluid" style="border: 1px solid black; height: 100px;">
-
-    </footer>
-</body>
+</div>
+<script src="change.js"></script>
+  </body>
 </html>

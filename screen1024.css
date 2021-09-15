@@ -1,0 +1,74 @@
+.slideshow {
+  position: absolute;
+  width: 768px;
+  height: 480px;
+  overflow: hidden;
+}
+.myslideshow {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  display: none;
+}
+.mbody{
+position: relative;
+background-color:rgba(0,0,0,0.6); 
+width: 15%; 
+height: 100%; 
+}
+.button {
+width: 100%;
+background-color:rgba(128,128,128,0.6); 
+color: rgba(256,256,256,0.6);
+transition: all .3s linear;
+cursor: pointer;
+border: 0px;
+font-size: 11pt;
+}
+.button:hover{
+background-color:rgba(0,0,0,0.1);
+font-size: 13pt;
+}
+.jay{
+width:90px;
+height:90px;
+border:1px solid rgba(0,0,0,0.1);
+border-radius:150px;
+overflow:hidden;
+margin-left: -10px;
+}
+.jay img{
+width: 100%;
+}
+.a1{
+position: relative;
+top: 5px;
+left: 25px;
+}
+.a1 img{
+height: 23px;
+width: 23px;
+}
+.a2{
+position: relative;
+top: 5px;
+left: 40px;
+}
+.a2 img{
+height: 23px;
+width: 23px;
+}
+.tour1{
+  width: 100%; 
+  height: 10%; 
+  padding:25px 22px;
+}
+.tour2{
+  width: 100%; 
+  height: 10; 
+  padding:150px 0px;
+}
+.tour3{
+  width: 100%; 
+  height: 10%; 
+}
